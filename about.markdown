@@ -1,18 +1,11 @@
 ---
 layout: page
-title: About
+title: "Зачем этот блог?"
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Привет всем, меня зовут Дмитрий! Я стал веб-разработчиком совсем недавно, проработав несколько лет мотористом и ремонтировал двигатели автомобилей.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+С тех пор, как я начал работать системным администратором и заниматься веб-разработкой, я узнал довольно много полезных вещей, и, поскольку моя память не самое лучшее мое оружие, я решил записать их в блог и сделать их доступными для всех.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Это будет полезно мне и надеюсь, понравится тем кто прочтёт!
