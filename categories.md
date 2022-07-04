@@ -4,7 +4,7 @@ title: "Категории"
 permalink: /categories/
 ---
 <ul>
-{% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for categories in site.categories %}
+  <li><a href="{{ categories.url }}">{{ categories.categories }}</a></li>
 {% endfor %}
 </ul>
