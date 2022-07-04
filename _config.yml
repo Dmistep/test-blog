@@ -21,7 +21,7 @@
 title: Dmistep Homelab
 email: dmistep@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Мои шпаргалки для вэб разработки, сетей, операционных систем.
+  Мои шпаргалки для вэб разработки, сетей и операционных систем.
 baseurl: "/test-blog" # the subpath of your site, e.g. /blog
 url: "https://dmistep.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
