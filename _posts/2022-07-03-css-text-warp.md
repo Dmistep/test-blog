@@ -1,7 +1,7 @@
 ---
-#layout: post
+layout: post
 #tags: []
-#categories: jekyll update
+categories: CSS
 date: 2022-07-03 22:28:13
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
