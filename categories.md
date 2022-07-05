@@ -9,15 +9,15 @@ permalink: /categories/
 {% endfor %}
 </ul> -->
 <div class="container">
-<div class="row">
-<div class="col-md-2">
+
 <div id="archives" class="">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
-
+<div class="row">
+<div class="col-md-2">
     <h3 class="category-head">{{ category_name }}</h3>
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
@@ -26,8 +26,9 @@ permalink: /categories/
     </article>
     {% endfor %}
   </div>
+</div>
+  </div>
 {% endfor %}
 </div>
-</div>
-</div>
+
 </div>
