@@ -6,7 +6,7 @@ categories: linux
 excerpt: 'Итак, если вы используете Firefox в качестве браузера, я рекомендую установить бинарную версию с веб-сайта Mozilla. Он будет работать немного быстрее и будет полностью интегрирован в ваш рабочий стол.'
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
-permalink: /install-favorite-browser/
+permalink: /install-favourite-browser/
 title: 'Установка браузера в linux'
 ---
 ## Оригинальный Firefox
