@@ -33,7 +33,6 @@ title: 'Обслуживание диска chkdsk'
 
 Для более специализированных заданий присутствуют также и дополнительные параметры.
 
-[![Website](https://img.shields.io/website?style=flat-square&up_color=blue&up_message=https%3A%2F%2Fhetmanrecovery.com&url=https%3A%2F%2Fhetmanrecovery.com%2Fru%2Frecovery_news%2Fhow-to-scan-and-fix-hard-drives-with-chkdsk-in-windows-10.htm)](https://hetmanrecovery.com/ru/recovery_news/how-to-scan-and-fix-hard-drives-with-chkdsk-in-windows-10.htm)
 
 [![Website](https://img.shields.io/website?style=for-the-badge&up_message=https%3A%2F%2Fshields.io%2Fcategory%2Fmonitoring&url=https%3A%2F%2Fshields.io%2Fcategory%2Fmonitoring)](https://shields.io/category/monitoring)
 
@@ -88,3 +87,12 @@ title: 'Обслуживание диска chkdsk'
 После чего закройте командную строку и продолжайте установку Windows — теперь ошибка появляться не будет. Также вы можете создать разделы, нажав «Настроить диск» в окне выбора раздела для установки.
 
 ![Из GPT в MBR с помощью командной строки](https://remontka.pro/images/convert-gpt-mbr-command-line.png)
+
+
+
+<style>
+.img_link{
+   width: 250px;
+}
+
+    </style>
