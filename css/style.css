@@ -62,7 +62,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Links */
 a {
-    color: #2a7ae2;
+    /*color: #2a7ae2;*/
+    color:#034ad8;
     text-decoration: none;
 }
 
