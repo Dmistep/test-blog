@@ -8,7 +8,9 @@ permalink: /categories/
   <li><a href="{{ post.url | relative_url}}">{{ post.categories | first}}</a></li>
 {% endfor %}
 </ul> -->
-<div id="archives">
+<div class="row">
+<div class="col-md-6">
+<div id="archives" class="">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -24,4 +26,6 @@ permalink: /categories/
     {% endfor %}
   </div>
 {% endfor %}
+</div>
+</div>
 </div>
