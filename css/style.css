@@ -220,7 +220,10 @@ table td {
 }
 
 .site-title, .site-title:visited {
-    color: #424242;
+    color: var(--header-title);
+}
+.site-title:hover {
+    color: var(--header-title);
 }
 
 .site-nav {
