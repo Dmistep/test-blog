@@ -1,17 +1,417 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-03T23:37:20+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/test-blog/welcom/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-03T22:28:13+03:00</published><updated>2022-07-03T22:28:13+03:00</updated><id>http://localhost:4000/test-blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/welcom/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-05T21:24:27+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Dmistep Homelab</title><subtitle>Мои шпаргалки для вэб разработки, сетей и операционных систем.</subtitle><entry><title type="html">Termux-начало</title><link href="http://localhost:4000/test-blog/termux-start/" rel="alternate" type="text/html" title="Termux-начало" /><published>2022-07-04T09:28:13+03:00</published><updated>2022-07-04T09:28:13+03:00</updated><id>http://localhost:4000/test-blog/termux-start</id><content type="html" xml:base="http://localhost:4000/test-blog/termux-start/">&lt;h2 id=&quot;несколько-нужных-команд&quot;&gt;Несколько нужных команд&lt;/h2&gt;
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+&lt;ul&gt;
+  &lt;li&gt;ls # – отображает список файлов и директорий в текущей директории&lt;/li&gt;
+  &lt;li&gt;cd # – перемещает в указанную директорию, например: Важно понимать: если путь не указан прямо (~/storage/downloads/1.txt) он будет от текущей директории
+    &lt;ul&gt;
+      &lt;li&gt;cd dir1 # – переместит в dir1 если в текущей директории она есть cd ~/dir1 # – переместит в dir1 по указанному пути от корневой папки&lt;/li&gt;
+      &lt;li&gt;cd #  или cd ~ # - переместить в корневую папку&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;clear # – очищаем консоль&lt;/li&gt;
+  &lt;li&gt;ifconfig # – можно посмотреть IP, а можно и сеть настроить&lt;/li&gt;
+  &lt;li&gt;cat # – позволяет работать с файлами/устройствами (в рамках одного потока) например:&lt;/li&gt;
+  &lt;li&gt;cat 1.txt # – просмотрим содержимое файла&lt;/li&gt;
+  &lt;li&gt;1.txt cat 1.txt»2.txt # – копируем файл 1.txt в файл 2.txt  (файл 1.txt останется)&lt;/li&gt;
+  &lt;li&gt;rm # - используемая для удаления файлов из файловой системы. Ключи, использующиеся с rm:
+    &lt;ul&gt;
+      &lt;li&gt;-r # – обрабатывать все вложенные директории. Данный ключ необходим, если удаляемый файл является директорией. Если удаляемый файл не является директорией, то ключ -r не влияет на команду rm.&lt;/li&gt;
+      &lt;li&gt;-i # – выводить запрос на подтверждение каждой операции удаления.&lt;/li&gt;
+      &lt;li&gt;-f # – не возвращать код ошибочного завершения, если ошибки были вызваны несуществующими файлами; не запрашивать подтверждения операций. Например: rm -rf mydir # – удалить без подтверждения и кода ошибочного завершения файл (или каталог) mydir.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;mkdir &lt;путь&gt; # – создает директорию по указанному пути&lt;/путь&gt;&lt;/li&gt;
+  &lt;li&gt;echo # – может служить для записи строки в файл, если используется ‘&amp;gt;’ файл будет перезаписан, если ‘»’ строка будет дописана в конец файла: echo “string” &amp;gt; filename&lt;/li&gt;
+&lt;/ul&gt;
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+&lt;h2 id=&quot;облегчает-жизнь&quot;&gt;Облегчает жизнь&lt;/h2&gt;
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install openssh&lt;/code&gt; - в процессе, если потребуется, вводим ‘y’&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pkill sshd&lt;/code&gt; - этой командой останавливаем OpenSSH)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;termux-setup-storage&lt;/code&gt; - подключить внутреннюю память&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cat ~/storage/downloads/termux.pub&amp;gt;&amp;gt;~/.ssh/authorized_keys&lt;/code&gt; - копируем файл-ключ&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sshd&lt;/code&gt; - запускаем ssh хост&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install bash-completion&lt;/code&gt; - Суть утилиты в том что, вводя команды вы можете нажав Tab воспользоваться автозаполнением.&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+&lt;p&gt;Ну что за жизнь без текстового редактора с подсветкой кода (если вдруг захочется покодить, а оно захочется). Для установки пишем:&lt;/p&gt;
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install vim&lt;/code&gt; - Тут уже можно пользоваться автозаполнением - пишем &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt i&lt;/code&gt; теперь нажимаем Tab и наша команда дописывается до &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install&lt;/code&gt;&lt;/p&gt;
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+&lt;p&gt;Пользоваться vim`ом не сложно, чтобы открыть файл 1.txt (если его нет, то он создастся) пишем:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim 1.txt &lt;span class=&quot;c&quot;&gt;# Чтобы начать вводить текст нажмите ‘i’ &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#Чтобы закончить вводить текст нажмите ESC &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#Перед вводом команды должно быть двоеточие&lt;/span&gt;
+‘:’ 
+‘:q!’ – выйти без сохранения 
+‘:w’ – сохранить &lt;span class=&quot;c&quot;&gt;# &lt;/span&gt;
+‘:wq’ – сохранить и выйти
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;пакет-iproute2&quot;&gt;Пакет iproute2:&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pkg install iproute2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;После установки сможем вводить:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ifconfig -&amp;gt; ip address / ip a
+route -&amp;gt; ip route / ip r
+netstat -&amp;gt; ss
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Termux — это эмулятор терминала Android и приложение для среды Linux.</summary></entry><entry><title type="html">Свойство word-wrap</title><link href="http://localhost:4000/test-blog/css%20word-wrap/" rel="alternate" type="text/html" title="Свойство word-wrap" /><published>2022-07-04T01:28:13+03:00</published><updated>2022-07-04T01:28:13+03:00</updated><id>http://localhost:4000/test-blog/css-text-warp</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20word-wrap/">&lt;p&gt;Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: &lt;strong&gt;normal&lt;/strong&gt; и &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;В нижеуказанном примере свойство &lt;strong&gt;word-wrap&lt;/strong&gt; имеет значение &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;210px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;word-wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;break-word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Результат:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p class=&quot;wrap&quot;&gt;This paragraph has a long word: thisisaverylongwordbutyoucantfinditinthedictionary.&lt;/p&gt;
+
+&lt;p&gt;Когда свойство &lt;strong&gt;word-wrap&lt;/strong&gt; имеет значение &lt;strong&gt;break-word&lt;/strong&gt;, браузер разбивает слово, если оно не помещается по ширине в заданную область.&lt;/p&gt;
+
+&lt;style&gt;
+ .wrap {
+    width: 210px; 
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+&lt;/style&gt;</content><author><name></name></author><category term="CSS" /><summary type="html">Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: normal и break-word.</summary></entry><entry><title type="html">Установка браузера в linux</title><link href="http://localhost:4000/test-blog/install-favourite-browser/" rel="alternate" type="text/html" title="Установка браузера в linux" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/Install-favourite-browser</id><content type="html" xml:base="http://localhost:4000/test-blog/install-favourite-browser/">&lt;h2 id=&quot;оригинальный-firefox&quot;&gt;Оригинальный Firefox&lt;/h2&gt;
+
+&lt;p&gt;Firefox — это приложение в Ubuntu 22.04. К сожалению, он немного медленнее оригинального Firefox. Он также не полностью интегрирован в среду рабочего стола. Итак, если вы используете Firefox в качестве браузера, я рекомендую установить бинарную версию с веб-сайта Mozilla. Он будет работать немного быстрее и будет полностью интегрирован в ваш рабочий стол.&lt;/p&gt;
+
+&lt;p&gt;Эта установка будет иметь приоритет над версией Firefox, установленной посредством вашего менеджера пакетов.&amp;lt;/mark&amp;gt; Чтобы запустить версию, установленную с помощью вашего менеджера пакетов, вам придётся запускать бинарник из терминала. Чтобы сделать это в большинстве дистрибутивов, откройте терминал и введите: &lt;b&gt;/usr/bin/firefox&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Чтобы установить его, следуйте &lt;a href=&quot;https://support.mozilla.org/ru/kb/ustanovka-firefox-na-linux#w_ustanovka-firefox-iz-bildov-mozilla-dlia-opytnykh-polzovatelei&quot;&gt;инструкциям Mozilla&lt;/a&gt; :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Скачать:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/ru/firefox/all/#product-desktop-esr&quot;&gt;страница загрузки Firefox ESR&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/ru/firefox/linux/?utm_medium=referral&amp;amp;utm_source=support.mozilla.org&quot;&gt;страница загрузки Firefox&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Перейти в папку Download в терминале:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd ~/Downloads &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Распакуйте архив:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tar xjf firefox-*.tar.bz2 &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Переместите файлы Firefox в /opt:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mv firefox /opt &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Создайте символическую ссылку на бинарный файл Firefox:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ln -s /opt/firefox/firefox /usr/local/bin/firefox &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Загрузите файл рабочего стола:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Удалите снап-версию Firefox:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo snap remove firefox &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;или&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo snap disable firefox&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;` sudo snap remove –purge firefox`&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Запустите новый Firefox, выполнив команду в терминале:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/local/bin/firefox &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Перейдите в Dock -&amp;gt; щелкните правой кнопкой мыши Firefox -&amp;gt; Добавить в избранное -&amp;gt; Переместите его наверх
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;yandex-browser&quot;&gt;Yandex browser&lt;/h2&gt;
+
+&lt;p&gt;Сначала надо скачать клиент Яндекс Браузера на компьютер. После того как скачаете подходящий пакет, делаем следующее:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Перейти в папку Download в терминале:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd ~/Downloads &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Оказавшись в нужной папке, вводим команду &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo dpkg -i yandex*.deb&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Учтите, что терминал чувствителен к регистру, поэтому заранее убедитесь, что файл называется yandex, а не Yandex, например. Иначе ничего не сработает.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Файл начнет распаковываться, но процесс может завершится неудачно. И это нормально. Скорее всего, ошибка связана с тем, что системе не удалось разрешить зависимости.&lt;/p&gt;
+
+&lt;p&gt;Если ошибка не появилась и процесс завершился успешно, то для вас инструкция закончилась.&lt;/p&gt;
+
+&lt;p&gt;Чтобы разрешить зависимости, после попытки распаковать браузер вводим в терминал команду :&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get Install -f&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Вводим пароль администратора.Потом вводим символ Y, чтобы подтвердить процесс загрузки зависимых компонентов для Яндекс.Браузера.&lt;/p&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Итак, если вы используете Firefox в качестве браузера, я рекомендую установить бинарную версию с веб-сайта Mozilla. Он будет работать немного быстрее и будет полностью интегрирован в ваш рабочий стол.</summary></entry><entry><title type="html">Jekyll. Основы работы</title><link href="http://localhost:4000/test-blog/jekyll/" rel="alternate" type="text/html" title="Jekyll. Основы работы" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/jekyll/">&lt;p&gt; &lt;a href=&quot;https://jekyllrb.com/docs/includes/&quot;&gt;Jekyll  включает&lt;/a&gt; в себя возможность разбивать ваши страницы на более мелкие «компоненты», такие как навигация, заголовки разделов и нижние колонтитулы — существует множество потенциальных вариантов использования. Подробнее о включениях читайте на официальном сайте Jekyll .&lt;/p&gt;
+
+&lt;p&gt;_includes folder:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include footer.html %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;создание-блога&quot;&gt;Создание блога&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cloudcannon.com/community/learn/jekyll-tutorial/introduction-to-blogging/&quot;&gt;Создание блога с Jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/posts/&quot;&gt;Posts. Jekyll.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Новый проект &lt;strong&gt;Jekyll&lt;/strong&gt; автоматически создается с папкой &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; и одним примером записи.&lt;/p&gt;
+
+&lt;p&gt;Стоит отметить несколько правил:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Допустимое имя сообщения должно быть в формате 
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[year]-[month]-[day]-[post-name].md&lt;/code&gt; Например, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2021-01-01-my-post.md&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Начало файла должно включать вводную часть (даже если она пуста), чтобы показать наличие содержания. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;# Заголовок&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Сообщения обычно пишутся в &lt;strong&gt;Markdown&lt;/strong&gt;, но &lt;strong&gt;HTML&lt;/strong&gt; тоже подойдет.
+Теперь создадим несколько постов. Которые должны выглядеть следующим образом:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Файл, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/2022-06-21-my-post.md&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+title: Мой первый блог
+---
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Для тех, кто следит за вами, вы найдете posts.txt в _posts папке. Просто следуйте инструкциям, чтобы извлечь сообщения в _postsпапку, заменив текущую дату (или любую прошлую дату) на «год-месяц-день», где это необходимо.&lt;/p&gt;
+
+&lt;h3 id=&quot;доступ-к-нашим-блогам&quot;&gt;Доступ к нашим блогам.&lt;/h3&gt;
+
+&lt;p&gt;Теперь, когда у нас есть несколько постов, давайте воспользуемся &lt;strong&gt;Liquid&lt;/strong&gt; для их отображения. Каждый раз, когда Jekyll создает наш сайт, он делает для нас ряд вещей:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Выводит страницы сообщений в виде HTML&lt;/li&gt;
+  &lt;li&gt;Создает объект сообщения с доступом к дате и заголовку сообщения (по умолчанию из имени файла), а также к URL-адресу для каждого сообщения.&lt;/li&gt;
+  &lt;li&gt;Делает все сообщения доступными глобально (в разделе «site.posts»)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Для начала нам нужна страница для списка существующих сообщений, поэтому давайте создадим ее &lt;strong&gt;blog.html&lt;/strong&gt; в нашем корневом каталоге со следующим простым содержимым:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: default
+title: Blog Page
+---
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+{% for post in site.posts %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+{% endfor %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Для более приятного стиля вы можете использовать этот пример :&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-header dark-orange&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;All posts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+{% for post in site.posts %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-preview&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-preview__left&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-preview__right&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;preview-title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;{{ post.date | date: &quot;%b %d, %Y&quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tag-group&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      {% for tag in post.tags %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tag&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tag-text&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ tag }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+      {% endfor %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+{% endfor %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;использование-макета&quot;&gt;Использование макета&lt;/h3&gt;
+
+&lt;p&gt;Когда мы нажимаем на сообщение сверху, мы оказываемся на нестилизованной странице. Это потому, что мы не указали макет для использования, поэтому давайте создадим его.&lt;/p&gt;
+
+&lt;p&gt;Во- первых, добавьте post.html в нашу _layouts папку следующее содержимое (некоторый CSS уже написан для обработки стиля):&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: default
+---
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b-hero&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b-hero__image&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b-hero__info&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b-hero__title&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b-hero__author-date&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;Written by: {{ page.author }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;{{ page.date | date: &quot;%b %d, %Y&quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tag-group&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        {% for tag in page.tags %}
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tag&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tag-text&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+              &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ tag }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+        {% endfor %}
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+{{ content }}
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Остался один шаг: сообщить нашим постам об использовании этого макета. Вернитесь к каждому сообщению и добавьте &lt;strong&gt;layout: post&lt;/strong&gt; в начало страницы .&lt;/p&gt;
+
+&lt;p&gt;Теперь у нас должны быть хорошо отформатированные сообщения для просмотра при запуске нашего локального сервера.&lt;/p&gt;
+
+&lt;h3 id=&quot;что-дальше&quot;&gt;Что дальше?&lt;/h3&gt;
+
+&lt;p&gt;Используя Jekyll, мы можем легко настроить блог и управлять нашими сообщениями. Но запись в блоге — не единственный способ сгруппировать наш контент, особенно если дата публикации не важна.&lt;/p&gt;
+
+&lt;p&gt;Далее мы рассмотрим коллекции — способ группировки связанного контента.&lt;/p&gt;</content><author><name></name></author><category term="Web_develop" /><summary type="html"> Jekyll  включает в себя возможность разбивать ваши страницы на более мелкие «компоненты», такие как навигация, заголовки разделов и нижние колонтитулы — существует множество потенциальных вариантов использования. Подробнее о включениях читайте на официальном сайте Jekyll .</summary></entry><entry><title type="html">Свойство list-style</title><link href="http://localhost:4000/test-blog/css%20list-style/" rel="alternate" type="text/html" title="Свойство list-style" /><published>2022-07-03T23:02:13+03:00</published><updated>2022-07-03T23:02:13+03:00</updated><id>http://localhost:4000/test-blog/list-style</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20list-style/">&lt;p&gt;Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков. Ниже мы рассмотрим каждое свойство отдельно.&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-type-изменение-маркера--нумерации&quot;&gt;List-style-type: изменение маркера / нумерации&lt;/h2&gt;
+
+&lt;p&gt;Если вам требуется заменить стандартные маркеры в виде точки либо арабских цифр на что-то другое, вы можете воспользоваться свойством CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-type&lt;/code&gt; и дополнительными значениями для него (см. таблицу):&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Вид маркера / нумерации&lt;/th&gt;
+      &lt;th&gt;Подходящее значение&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Маркер-точка (по умолчанию)&lt;/td&gt;
+      &lt;td&gt;disc&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Маркер-окружность&lt;/td&gt;
+      &lt;td&gt;circle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Маркер-квадрат&lt;/td&gt;
+      &lt;td&gt;square&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация арабскими цифрами (по умолчанию)&lt;/td&gt;
+      &lt;td&gt;decimal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация арабскими цифрами (перед числами 1-9 добавляется 0)&lt;/td&gt;
+      &lt;td&gt;decimal-leading-zero&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация прописными буквами латинского алфавита&lt;/td&gt;
+      &lt;td&gt;upper-latin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация строчными буквами латинского алфавита&lt;/td&gt;
+      &lt;td&gt;lower-latin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Наследование значений родителя&lt;/td&gt;
+      &lt;td&gt;inherit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Удаление маркеров / нумерации&lt;/td&gt;
+      &lt;td&gt;none&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; в таблице приведены только основные значения. Более обширный список (грузинская и армянская нумерации, нумерация римскими числами, греческими буквами и т. д.) доступен здесь.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Пример написания кода CSS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-type-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Скриншот: варианты маркеров / нумерации списков&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-image-маркер-картинка&quot;&gt;List-style-image: маркер-картинка&lt;/h2&gt;
+
+&lt;p&gt;Помимо вышеперечисленных маркеров можно установить свои графические маркеры, используя файл с необходимым изображением. Для этого вам понадобится свойство CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-image&lt;/code&gt; и значение с указанием адреса URL картинки. Пример записи стиля:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(images/star.png)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-image-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Скриншот: примеры собственных графических маркеров&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-position-расположение-маркеров--нумерации&quot;&gt;List-style-position: расположение маркеров / нумерации&lt;/h2&gt;
+
+&lt;p&gt;Для CSS свойства &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-position&lt;/code&gt;, которое задает расположение маркеров / нумерации относительно текста, есть два значения – &lt;strong&gt;outside&lt;/strong&gt; и &lt;strong&gt;inside&lt;/strong&gt;. По умолчанию используется значение &lt;strong&gt;outside&lt;/strong&gt; – это значит, что маркер / число отображается как бы отдельно от текста списка, тогда как при значении inside маркер / число располагается внутри текстового блока и обтекается текстом.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ниже показан пример записи стиля:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-position-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Скриншот для лучшего понимания значений outside и inside&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-все-вместе&quot;&gt;List-style: все вместе&lt;/h2&gt;
+
+&lt;p&gt;Используя одно-единственное свойство CSS `list-style’, можно записать все вышеперечисленное в одной строке – то есть, сразу же задать вид маркеров / нумерации и их расположение относительно текста. Такой код будет более кратким и удобным. Ниже показано два примера, как пишется подобный стиль:&lt;/p&gt;
+
+&lt;p&gt;Нумерация прописными латинскими буквами внутри текстового блока:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ol&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;upper-latin&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Графические маркеры снаружи текстового блока:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(images/star.png)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;outside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="CSS" /><summary type="html"></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/test-blog/welcom/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-03T22:28:13+03:00</published><updated>2022-07-03T22:28:13+03:00</updated><id>http://localhost:4000/test-blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/welcom/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Jekyll_update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

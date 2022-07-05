@@ -1,7 +1,17 @@
 /** Reset some basic elements */
+:root{
+    --header-title:#4e96b9;
+    --blue-grey:#455a64;
+    --grey: #7a8c9b;
+}
+
+
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
+}
+h1, h2, h3{
+    color: var(--grey);
 }
 
 /** Basic styling */
@@ -33,6 +43,7 @@ main {
 
 /** Images */
 img {
+    width: 100%;
     max-width: 100%;
     vertical-align: middle;
 }
@@ -62,7 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Links */
 a {
-    color: #2a7ae2;
+    /*color: #2a7ae2;*/
+    color:#034ad8;
     text-decoration: none;
 }
 
@@ -197,8 +209,10 @@ table td {
 }
 
 .site-title {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 900;
+    color: #4e96b9 !important;
     line-height: 54px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -361,6 +375,7 @@ table td {
 
 .post-list-heading {
     font-size: 28px;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 .post-list {
