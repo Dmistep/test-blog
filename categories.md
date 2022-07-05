@@ -8,6 +8,7 @@ permalink: /categories/
   <li><a href="{{ post.url | relative_url}}">{{ post.categories | first}}</a></li>
 {% endfor %}
 </ul> -->
+<div class="container">
 <div class="row">
 <div class="col-md-2">
 <div id="archives" class="">
@@ -26,6 +27,7 @@ permalink: /categories/
     {% endfor %}
   </div>
 {% endfor %}
+</div>
 </div>
 </div>
 </div>
