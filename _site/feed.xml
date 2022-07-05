@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-05T21:44:13+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Dmistep Homelab</title><subtitle>Мои шпаргалки для вэб разработки, сетей и операционных систем.</subtitle><entry><title type="html">Termux-начало</title><link href="http://localhost:4000/test-blog/termux-start/" rel="alternate" type="text/html" title="Termux-начало" /><published>2022-07-04T09:28:13+03:00</published><updated>2022-07-04T09:28:13+03:00</updated><id>http://localhost:4000/test-blog/termux-start</id><content type="html" xml:base="http://localhost:4000/test-blog/termux-start/">&lt;h2 id=&quot;несколько-нужных-команд&quot;&gt;Несколько нужных команд&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-05T22:02:41+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Dmistep Homelab</title><subtitle>Мои шпаргалки для вэб разработки, сетей и операционных систем.</subtitle><entry><title type="html">Termux-начало</title><link href="http://localhost:4000/test-blog/termux-start/" rel="alternate" type="text/html" title="Termux-начало" /><published>2022-07-04T09:28:13+03:00</published><updated>2022-07-04T09:28:13+03:00</updated><id>http://localhost:4000/test-blog/termux-start</id><content type="html" xml:base="http://localhost:4000/test-blog/termux-start/">&lt;h2 id=&quot;несколько-нужных-команд&quot;&gt;Несколько нужных команд&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;ls # – отображает список файлов и директорий в текущей директории&lt;/li&gt;
@@ -298,7 +298,95 @@ layout: default
 
 &lt;p&gt;Используя Jekyll, мы можем легко настроить блог и управлять нашими сообщениями. Но запись в блоге — не единственный способ сгруппировать наш контент, особенно если дата публикации не важна.&lt;/p&gt;
 
-&lt;p&gt;Далее мы рассмотрим коллекции — способ группировки связанного контента.&lt;/p&gt;</content><author><name></name></author><category term="Web_develop" /><summary type="html"> Jekyll  включает в себя возможность разбивать ваши страницы на более мелкие «компоненты», такие как навигация, заголовки разделов и нижние колонтитулы — существует множество потенциальных вариантов использования. Подробнее о включениях читайте на официальном сайте Jekyll .</summary></entry><entry><title type="html">Свойство list-style</title><link href="http://localhost:4000/test-blog/css%20list-style/" rel="alternate" type="text/html" title="Свойство list-style" /><published>2022-07-03T23:02:13+03:00</published><updated>2022-07-03T23:02:13+03:00</updated><id>http://localhost:4000/test-blog/list-style</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20list-style/">&lt;p&gt;Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков. Ниже мы рассмотрим каждое свойство отдельно.&lt;/p&gt;
+&lt;p&gt;Далее мы рассмотрим коллекции — способ группировки связанного контента.&lt;/p&gt;</content><author><name></name></author><category term="Web_develop" /><summary type="html"> Jekyll  включает в себя возможность разбивать ваши страницы на более мелкие «компоненты», такие как навигация, заголовки разделов и нижние колонтитулы — существует множество потенциальных вариантов использования. Подробнее о включениях читайте на официальном сайте Jekyll .</summary></entry><entry><title type="html">Обслуживание диска chkdsk</title><link href="http://localhost:4000/test-blog/service-hdd/" rel="alternate" type="text/html" title="Обслуживание диска chkdsk" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/service-hdd</id><content type="html" xml:base="http://localhost:4000/test-blog/service-hdd/">&lt;p&gt;&lt;em&gt;Пример команды которую необходимо ввести в Командную Строку выглядит следующим образом&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chkdsk [Drive:] [parameters]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;В нашем случае это будет так&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chkdsk C: /f /r /x&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Для запуска Командной Строки от имени Администратора нажмите сочетание клавиш &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Windows + X&lt;/code&gt; и выберите необходимый пункт меню. Также, данное меню можно открыть, кликнув правой кнопкой мышки по меню Пуск.
+В Командной Строке введите команду &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chkdsk&lt;/code&gt;, после этого букву диска, который необходимо проверить или восстановить.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Пример:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chkdsk c: &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Обычный запуск команды &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chkdsk&lt;/code&gt; в Windows 10 просто покажет статус диска и не будет устранять никаких ошибок раздела. Для того чтобы команда исправляла ошибки на диске, необходимо задать параметры После буквы диска через пробел: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/f /r /x&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/f&lt;/code&gt; даёт команду &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chkdsk&lt;/code&gt; исправлять все найденные ошибки;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/r&lt;/code&gt; – находить на диске битые (bad) сектора и восстанавливать читабельную информацию;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/x&lt;/code&gt; – останавливает диск до начала процесса.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Для более специализированных заданий присутствуют также и дополнительные параметры.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hetmanrecovery.com/ru/recovery_news/how-to-scan-and-fix-hard-drives-with-chkdsk-in-windows-10.htm&quot;&gt;&lt;img src=&quot;https://img.shields.io/website?style=flat-square&amp;amp;up_color=blue&amp;amp;up_message=https%3A%2F%2Fhetmanrecovery.com&amp;amp;url=https%3A%2F%2Fhetmanrecovery.com%2Fru%2Frecovery_news%2Fhow-to-scan-and-fix-hard-drives-with-chkdsk-in-windows-10.htm&quot; alt=&quot;Website&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://shields.io/category/monitoring&quot;&gt;&lt;img src=&quot;https://img.shields.io/website?style=for-the-badge&amp;amp;up_message=https%3A%2F%2Fshields.io%2Fcategory%2Fmonitoring&amp;amp;url=https%3A%2F%2Fshields.io%2Fcategory%2Fmonitoring&quot; alt=&quot;Website&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://shields.io/category/monitoring&quot;&gt;&lt;img alt=&quot;Website&quot; src=&quot;https://img.shields.io/website?style=for-the-badge&amp;amp;up_message=https%3A%2F%2Fshields.io%2Fcategory%2Fmonitoring&amp;amp;url=https%3A%2F%2Fshields.io%2Fcategory%2Fmonitoring&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;diskpart&quot;&gt;diskpart&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.easeus.com/partition-master/format-hard-drive-using-command-prompt.html#1&quot;&gt;&lt;img src=&quot;https://img.shields.io/website?style=flat-square&amp;amp;up_color=blue&amp;amp;up_message=https%3A%2F%2Fwww.easeus.com%2Fpartition-master%2Fformat-hard-drive-using-command-prompt.html%231&amp;amp;url=https%3A%2F%2Fwww.easeus.com%2Fpartition-master%2Fformat-hard-drive-using-command-prompt.html%231&quot; alt=&quot;Website&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://remontka.pro/format-disk-cmd/&quot;&gt;&lt;img src=&quot;https://img.shields.io/website?style=flat-square&amp;amp;up_color=blue&amp;amp;up_message=https%3A%2F%2Fremontka.pro%2Fformat-disk-cmd%2F&amp;amp;url=https%3A%2F%2Fremontka.pro%2Fformat-disk-cmd%2F&quot; alt=&quot;Website&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fully-cleanformat-disk-and-create-partition&quot;&gt;Fully Clean,Format Disk and Create partition&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Пример команд которые необходимо ввести в Командную Строку выглядит следующим образом&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list disk&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;select disk 2&lt;/code&gt; (Заменить 2 на номер выбираемого диска)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clean&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create partition primary&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;format fs = ntfs quick&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assign&lt;/code&gt; (назначь букву диска только что созданному разделу)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;quick-format-disk-using-diskpart&quot;&gt;Quick Format Disk Using DiskPart&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list disk&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;select disk 2&lt;/code&gt; (Заменить 2 на номер выбираемого диска)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list volume&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;select volume 10&lt;/code&gt; (Заменить 10 номером тома раздела, который надо отформатировать)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;format fs=ntfs quick&lt;/code&gt; (если нужно отформатировать раздел жесткого диска в FAT32 или другие файловые системы, замени NTFS на FAT32 , exFAT и т. д.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.easeus.com/images/en/screenshot/partition-manager/diskpart-quick-format-hard-drive.png&quot; alt=&quot;Quick format hard drive with diskpart command.&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;convert-to-gpt-or-mbr&quot;&gt;Convert to GPT or MBR&lt;/h3&gt;
+
+&lt;p&gt;При установке Windows (например, на этапе выбора разделов, но можно и в другом месте) нажмите клавиши &lt;strong&gt;Shift + F10&lt;/strong&gt; на клавиатуре, откроется командная строка. Если то же самое вы делаете в ОС Windows, то командную строку нужно запускать от имени администратора.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diskpart&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list disk&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;select disk N&lt;/code&gt; (где N — номер диска, который нужно преобразовать)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Теперь вы можете поступить двумя способами: ввести команду &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clean&lt;/code&gt;, чтобы очистить диск полностью (все разделы будут удалены), либо удалить разделы по одному вручную с помощью команд &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detail disk&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;select volume&lt;/code&gt; и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delete volume&lt;/code&gt; (на скриншоте используется именно этот способ, но просто ввести clean будет быстрее).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;convert gpt&lt;/code&gt; (для того чтобы преобразовать диск в &lt;strong&gt;GPT&lt;/strong&gt;. Или &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;convert mbr&lt;/code&gt; чтобы преобразовать в &lt;strong&gt;MBR&lt;/strong&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Exit&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;После чего закройте командную строку и продолжайте установку Windows — теперь ошибка появляться не будет. Также вы можете создать разделы, нажав «Настроить диск» в окне выбора раздела для установки.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://remontka.pro/images/convert-gpt-mbr-command-line.png&quot; alt=&quot;Из GPT в MBR с помощью командной строки&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Microsoft" /><summary type="html">Пример команды которую необходимо ввести в Командную Строку выглядит следующим образом:</summary></entry><entry><title type="html">Свойство list-style</title><link href="http://localhost:4000/test-blog/css%20list-style/" rel="alternate" type="text/html" title="Свойство list-style" /><published>2022-07-03T23:02:13+03:00</published><updated>2022-07-03T23:02:13+03:00</updated><id>http://localhost:4000/test-blog/list-style</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20list-style/">&lt;p&gt;Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков. Ниже мы рассмотрим каждое свойство отдельно.&lt;/p&gt;
 
 &lt;h2 id=&quot;list-style-type-изменение-маркера--нумерации&quot;&gt;List-style-type: изменение маркера / нумерации&lt;/h2&gt;
 
