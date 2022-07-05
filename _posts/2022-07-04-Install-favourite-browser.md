@@ -1,7 +1,7 @@
 ---
 layout: post
 #tags: []
-categories: Linux
+categories: linux
 #date: 2022-07-03 20:02:13
 excerpt: 'Итак, если вы используете Firefox в качестве браузера, я рекомендую установить бинарную версию с веб-сайта Mozilla. Он будет работать немного быстрее и будет полностью интегрирован в ваш рабочий стол.'
 #image: 'BASEURL/assets/blog/img/.png'
