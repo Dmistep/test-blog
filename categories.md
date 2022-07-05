@@ -9,7 +9,7 @@ permalink: /categories/
 {% endfor %}
 </ul> -->
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-2">
 <div id="archives" class="">
 {% for category in site.categories %}
   <div class="archive-group">
