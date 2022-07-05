@@ -10,7 +10,7 @@ permalink: /categories/
 </ul> -->
 
 
-<div id="archives" class="">
+<div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
