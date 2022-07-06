@@ -29,6 +29,7 @@ github_username:  dmistep
 
 permalink: /:collection/:year-:month-:day-:title:output_ext
 show_excerpts: true
+toc: true 
 
 # Build settings
 theme: minima
