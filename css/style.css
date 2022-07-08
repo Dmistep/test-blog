@@ -153,7 +153,7 @@ pre > code {
     .wrapper {
        /* max-width: -webkit-calc(800px - (30px));
         max-width: calc(800px - (30px));*/
-        max-width: 720px;
+        max-width: 760px;
         padding-right: 15px;
         padding-left: 15px;
     }
