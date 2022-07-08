@@ -149,8 +149,9 @@ pre > code {
 
 @media screen and (max-width: 800px) {
     .wrapper {
-        max-width: -webkit-calc(800px - (30px));
-        max-width: calc(800px - (30px));
+       /* max-width: -webkit-calc(800px - (30px));
+        max-width: calc(800px - (30px));*/
+        max-width: 720px;
         padding-right: 15px;
         padding-left: 15px;
     }
