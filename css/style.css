@@ -168,6 +168,9 @@ pre > code {
         padding-right: 15px;
         padding-left: 15px;
     }
+    .site-title{
+        font-size: 2rem;
+    }
 }
 
 /** Clearfix */
