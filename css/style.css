@@ -4,7 +4,8 @@
     --header-title: #242424;
     --bg-body:#fafbfc;
     --blue-grey:#455a64;
-    --grey: #7a8c9b;
+    /*--grey: #7a8c9b;*/
+    --grey: #494949;
     
 }
 *,html{
