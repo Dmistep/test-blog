@@ -88,11 +88,11 @@ a {
 }
 
 a:visited {
-    color: #1756a9;
+    color: var(--color-links);
 }
 
 a:hover {
-    color: #111;
+    color: var(--color-links);
     text-decoration: underline;
 }
 
