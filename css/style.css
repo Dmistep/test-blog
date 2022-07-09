@@ -6,6 +6,7 @@
     --blue-grey:#455a64;
     /*--grey: #7a8c9b;*/
     --grey: #494949;
+    --color-links:#8085c1;
     
 }
 *,html{
@@ -81,7 +82,8 @@ h1, h2, h3, h4, h5, h6 {
 /** Links */
 a {
     /*color: #2a7ae2;*/
-    color:#034ad8;
+    /*color:#034ad8;*/
+    color: var(--color-links);
     text-decoration: none;
 }
 
