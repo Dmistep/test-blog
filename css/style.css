@@ -1,8 +1,10 @@
 /** Reset some basic elements */
 :root{
-    --header-title:#4e96b9;
+    /*--header-title:#4e96b9;*/
+    --header-title: #242424;
     --blue-grey:#455a64;
     --grey: #7a8c9b;
+    
 }
 *,html{
     box-sizing: border-box;
