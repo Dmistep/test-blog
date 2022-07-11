@@ -52,7 +52,7 @@
 
 <p>_includes folder:</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% include footer.html %}
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>footer.html<span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <h2 id="создание-блога">Создание блога</h2>
@@ -67,13 +67,23 @@
 
 <ul>
   <li>Допустимое имя сообщения должно быть в формате 
-<code class="language-plaintext highlighter-rouge">[year]-[month]-[day]-[post-name].md</code> Например, <code class="language-plaintext highlighter-rouge">2021-01-01-my-post.md</code></li>
-  <li>Начало файла должно включать вводную часть (даже если она пуста), чтобы показать наличие содержания. <code class="language-plaintext highlighter-rouge"># Заголовок</code></li>
+<code class="language-plaintext highlighter-rouge">[year]-[month]-[day]-[post-name].md </code> Например, </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2021-01-01-my-post.md </code></p>
+
+<ul>
+  <li>Начало файла должно включать вводную часть (даже если она пуста), чтобы показать наличие содержания.</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge"># Заголовок </code></p>
+
+<ul>
   <li>Сообщения обычно пишутся в <strong>Markdown</strong>, но <strong>HTML</strong> тоже подойдет.
 Теперь создадим несколько постов. Которые должны выглядеть следующим образом:</li>
 </ul>
 
-<p>Файл, <code class="language-plaintext highlighter-rouge">_posts/2022-06-21-my-post.md</code></p>
+<p>Файл, <code class="language-plaintext highlighter-rouge">_posts/2022-06-21-my-post.md </code></p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title: Мой первый блог
@@ -109,7 +119,7 @@ title: Blog Page
 
 <p>Для более приятного стиля вы можете использовать этот пример :</p>
 
-<p><code class="language-plaintext highlighter-rouge">blog.html</code></p>
+<p>` blog.html `</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"col-header dark-orange"</span><span class="nt">&gt;</span>All posts<span class="nt">&lt;/h1&gt;</span>
 {% for post in site.posts %}

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-05T22:24:44+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Dmistep Homelab</title><subtitle>Мои шпаргалки для вэб разработки, сетей и операционных систем.</subtitle><entry><title type="html">Termux-начало</title><link href="http://localhost:4000/test-blog/termux-start/" rel="alternate" type="text/html" title="Termux-начало" /><published>2022-07-04T09:28:13+03:00</published><updated>2022-07-04T09:28:13+03:00</updated><id>http://localhost:4000/test-blog/termux-start</id><content type="html" xml:base="http://localhost:4000/test-blog/termux-start/">&lt;h2 id=&quot;несколько-нужных-команд&quot;&gt;Несколько нужных команд&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-11T22:32:17+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Dmistep Homelab</title><subtitle>Мои шпаргалки для вэб разработки, сетей и операционных систем.</subtitle><entry><title type="html">Termux-начало</title><link href="http://localhost:4000/test-blog/termux-start/" rel="alternate" type="text/html" title="Termux-начало" /><published>2022-07-04T09:28:13+03:00</published><updated>2022-07-04T09:28:13+03:00</updated><id>http://localhost:4000/test-blog/termux-start</id><content type="html" xml:base="http://localhost:4000/test-blog/termux-start/">&lt;h2 id=&quot;несколько-нужных-команд&quot;&gt;Несколько нужных команд&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;ls # – отображает список файлов и директорий в текущей директории&lt;/li&gt;
@@ -41,13 +41,13 @@
 
 &lt;p&gt;Пользоваться vim`ом не сложно, чтобы открыть файл 1.txt (если его нет, то он создастся) пишем:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim 1.txt &lt;span class=&quot;c&quot;&gt;# Чтобы начать вводить текст нажмите ‘i’ &lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#Чтобы закончить вводить текст нажмите ESC &lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#Перед вводом команды должно быть двоеточие&lt;/span&gt;
-‘:’ 
-‘:q!’ – выйти без сохранения 
-‘:w’ – сохранить &lt;span class=&quot;c&quot;&gt;# &lt;/span&gt;
-‘:wq’ – сохранить и выйти
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;vim&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;txt # Чтобы начать вводить текст нажмите ‘&lt;span class=&quot;k&quot;&gt;i&lt;/span&gt;’ 
+#Чтобы закончить вводить текст нажмите ESC 
+#Перед вводом команды должно быть двоеточие
+‘&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;’ 
+‘&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;’ – выйти без сохранения 
+‘&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;’ – сохранить # 
+‘&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;wq&lt;/span&gt;’ – сохранить и выйти
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;пакет-iproute2&quot;&gt;Пакет iproute2:&lt;/h2&gt;
@@ -56,10 +56,10 @@
 
 &lt;p&gt;После установки сможем вводить:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ifconfig -&amp;gt; ip address / ip a
-route -&amp;gt; ip route / ip r
-netstat -&amp;gt; ss
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Termux — это эмулятор терминала Android и приложение для среды Linux.</summary></entry><entry><title type="html">Свойство word-wrap</title><link href="http://localhost:4000/test-blog/css%20word-wrap/" rel="alternate" type="text/html" title="Свойство word-wrap" /><published>2022-07-04T01:28:13+03:00</published><updated>2022-07-04T01:28:13+03:00</updated><id>http://localhost:4000/test-blog/css-text-warp</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20word-wrap/">&lt;p&gt;Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: &lt;strong&gt;normal&lt;/strong&gt; и &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ifconfig&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;netstat&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ss&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Termux — это эмулятор терминала Android и приложение для среды Linux.</summary></entry><entry><title type="html">Свойство word-wrap</title><link href="http://localhost:4000/test-blog/css%20word-wrap/" rel="alternate" type="text/html" title="Свойство word-wrap" /><published>2022-07-04T01:28:13+03:00</published><updated>2022-07-04T01:28:13+03:00</updated><id>http://localhost:4000/test-blog/css-text-warp</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20word-wrap/">&lt;p&gt;Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: &lt;strong&gt;normal&lt;/strong&gt; и &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;В нижеуказанном примере свойство &lt;strong&gt;word-wrap&lt;/strong&gt; имеет значение &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
 
@@ -182,7 +182,7 @@ netstat -&amp;gt; ss
 
 &lt;p&gt;_includes folder:&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include footer.html %}
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;footer.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;создание-блога&quot;&gt;Создание блога&lt;/h2&gt;
@@ -197,13 +197,23 @@ netstat -&amp;gt; ss
 
 &lt;ul&gt;
   &lt;li&gt;Допустимое имя сообщения должно быть в формате 
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[year]-[month]-[day]-[post-name].md&lt;/code&gt; Например, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2021-01-01-my-post.md&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Начало файла должно включать вводную часть (даже если она пуста), чтобы показать наличие содержания. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;# Заголовок&lt;/code&gt;&lt;/li&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[year]-[month]-[day]-[post-name].md &lt;/code&gt; Например, &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2021-01-01-my-post.md &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Начало файла должно включать вводную часть (даже если она пуста), чтобы показать наличие содержания.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;# Заголовок &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;Сообщения обычно пишутся в &lt;strong&gt;Markdown&lt;/strong&gt;, но &lt;strong&gt;HTML&lt;/strong&gt; тоже подойдет.
 Теперь создадим несколько постов. Которые должны выглядеть следующим образом:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Файл, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/2022-06-21-my-post.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Файл, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/2022-06-21-my-post.md &lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 title: Мой первый блог
@@ -239,7 +249,7 @@ title: Blog Page
 
 &lt;p&gt;Для более приятного стиля вы можете использовать этот пример :&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog.html&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;` blog.html `&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-header dark-orange&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;All posts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
 {% for post in site.posts %}
@@ -491,7 +501,7 @@ layout: default
 &lt;p&gt;Графические маркеры снаружи текстового блока:&lt;/p&gt;
 
 &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(images/star.png)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;outside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="CSS" /><summary type="html"></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/test-blog/welcom/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-03T22:28:13+03:00</published><updated>2022-07-03T22:28:13+03:00</updated><id>http://localhost:4000/test-blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/welcom/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="CSS" /><summary type="html">Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/test-blog/welcom/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-03T22:28:13+03:00</published><updated>2022-07-03T22:28:13+03:00</updated><id>http://localhost:4000/test-blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/welcom/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 

@@ -10,7 +10,6 @@ order: 1
 {% endfor %}
 </ul> -->
 
-
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
