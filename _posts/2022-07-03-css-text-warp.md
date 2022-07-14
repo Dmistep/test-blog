@@ -2,12 +2,12 @@
 layout: post
 #tags: []
 categories: CSS
-date: 2022-07-03 22:28:13
+#date: 2022-07-03 22:28:13
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 permalink: /css word-wrap/
-title: 'Свойство word-wrap'
+title: 'CSS: свойство word-wrap'
 ---
 
 
