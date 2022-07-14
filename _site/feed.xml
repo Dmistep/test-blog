@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-11T22:57:33+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Dmistep Homelab</title><subtitle>Мои шпаргалки для вэб разработки, сетей и операционных систем.</subtitle><entry><title type="html">Termux-начало</title><link href="http://localhost:4000/test-blog/termux-start/" rel="alternate" type="text/html" title="Termux-начало" /><published>2022-07-04T09:28:13+03:00</published><updated>2022-07-04T09:28:13+03:00</updated><id>http://localhost:4000/test-blog/termux-start</id><content type="html" xml:base="http://localhost:4000/test-blog/termux-start/">&lt;h2 id=&quot;несколько-нужных-команд&quot;&gt;Несколько нужных команд&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/test-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test-blog/" rel="alternate" type="text/html" /><updated>2022-07-14T15:50:41+03:00</updated><id>http://localhost:4000/test-blog/feed.xml</id><title type="html">Dmistep Homelab</title><subtitle>Мои шпаргалки для вэб разработки, сетей и операционных систем.</subtitle><entry><title type="html">Termux-начало</title><link href="http://localhost:4000/test-blog/termux-start/" rel="alternate" type="text/html" title="Termux-начало" /><published>2022-07-04T09:28:13+03:00</published><updated>2022-07-04T09:28:13+03:00</updated><id>http://localhost:4000/test-blog/termux-start</id><content type="html" xml:base="http://localhost:4000/test-blog/termux-start/">&lt;h2 id=&quot;несколько-нужных-команд&quot;&gt;Несколько нужных команд&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;ls # – отображает список файлов и директорий в текущей директории&lt;/li&gt;
@@ -59,31 +59,7 @@
 &lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ifconfig&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;netstat&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ss&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Termux — это эмулятор терминала Android и приложение для среды Linux.</summary></entry><entry><title type="html">Свойство word-wrap</title><link href="http://localhost:4000/test-blog/css%20word-wrap/" rel="alternate" type="text/html" title="Свойство word-wrap" /><published>2022-07-04T01:28:13+03:00</published><updated>2022-07-04T01:28:13+03:00</updated><id>http://localhost:4000/test-blog/css-text-warp</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20word-wrap/">&lt;p&gt;Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: &lt;strong&gt;normal&lt;/strong&gt; и &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;В нижеуказанном примере свойство &lt;strong&gt;word-wrap&lt;/strong&gt; имеет значение &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;210px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;word-wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;break-word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Результат:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p class=&quot;wrap&quot;&gt;This paragraph has a long word: thisisaverylongwordbutyoucantfinditinthedictionary.&lt;/p&gt;
-
-&lt;p&gt;Когда свойство &lt;strong&gt;word-wrap&lt;/strong&gt; имеет значение &lt;strong&gt;break-word&lt;/strong&gt;, браузер разбивает слово, если оно не помещается по ширине в заданную область.&lt;/p&gt;
-
-&lt;style&gt;
- .wrap {
-    width: 210px; 
-    height: 100px;
-    border: 1px solid #000000;
-    word-wrap: break-word;
-}
-&lt;/style&gt;</content><author><name></name></author><category term="CSS" /><summary type="html">Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: normal и break-word.</summary></entry><entry><title type="html">Установка браузера в linux</title><link href="http://localhost:4000/test-blog/install-favourite-browser/" rel="alternate" type="text/html" title="Установка браузера в linux" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/Install-favourite-browser</id><content type="html" xml:base="http://localhost:4000/test-blog/install-favourite-browser/">&lt;h2 id=&quot;оригинальный-firefox&quot;&gt;Оригинальный Firefox&lt;/h2&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Termux — это эмулятор терминала Android и приложение для среды Linux.</summary></entry><entry><title type="html">Установка браузера в linux</title><link href="http://localhost:4000/test-blog/install-favourite-browser/" rel="alternate" type="text/html" title="Установка браузера в linux" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/Install-favourite-browser</id><content type="html" xml:base="http://localhost:4000/test-blog/install-favourite-browser/">&lt;h2 id=&quot;оригинальный-firefox&quot;&gt;Оригинальный Firefox&lt;/h2&gt;
 
 &lt;p&gt;Firefox — это приложение в Ubuntu 22.04. К сожалению, он немного медленнее оригинального Firefox. Он также не полностью интегрирован в среду рабочего стола. Итак, если вы используете Firefox в качестве браузера, я рекомендую установить бинарную версию с веб-сайта Mozilla. Он будет работать немного быстрее и будет полностью интегрирован в ваш рабочий стол.&lt;/p&gt;
 
@@ -178,7 +154,107 @@
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get Install -f&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Вводим пароль администратора.Потом вводим символ Y, чтобы подтвердить процесс загрузки зависимых компонентов для Яндекс.Браузера.&lt;/p&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Итак, если вы используете Firefox в качестве браузера, я рекомендую установить бинарную версию с веб-сайта Mozilla. Он будет работать немного быстрее и будет полностью интегрирован в ваш рабочий стол.</summary></entry><entry><title type="html">Jekyll. Основы работы</title><link href="http://localhost:4000/test-blog/jekyll/" rel="alternate" type="text/html" title="Jekyll. Основы работы" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/jekyll/">&lt;p&gt; &lt;a href=&quot;https://jekyllrb.com/docs/includes/&quot;&gt;Jekyll  включает&lt;/a&gt; в себя возможность разбивать ваши страницы на более мелкие «компоненты», такие как навигация, заголовки разделов и нижние колонтитулы — существует множество потенциальных вариантов использования. Подробнее о включениях читайте на официальном сайте Jekyll .&lt;/p&gt;
+&lt;p&gt;Вводим пароль администратора.Потом вводим символ Y, чтобы подтвердить процесс загрузки зависимых компонентов для Яндекс.Браузера.&lt;/p&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Итак, если вы используете Firefox в качестве браузера, я рекомендую установить бинарную версию с веб-сайта Mozilla. Он будет работать немного быстрее и будет полностью интегрирован в ваш рабочий стол.</summary></entry><entry><title type="html">CSS: свойство list-style</title><link href="http://localhost:4000/test-blog/css%20list-style/" rel="alternate" type="text/html" title="CSS: свойство list-style" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/css-list-style</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20list-style/">&lt;p&gt;Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков. Ниже мы рассмотрим каждое свойство отдельно.&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-type-изменение-маркера--нумерации&quot;&gt;List-style-type: изменение маркера / нумерации&lt;/h2&gt;
+
+&lt;p&gt;Если вам требуется заменить стандартные маркеры в виде точки либо арабских цифр на что-то другое, вы можете воспользоваться свойством CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-type&lt;/code&gt; и дополнительными значениями для него (см. таблицу):&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Вид маркера / нумерации&lt;/th&gt;
+      &lt;th&gt;Подходящее значение&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Маркер-точка (по умолчанию)&lt;/td&gt;
+      &lt;td&gt;disc&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Маркер-окружность&lt;/td&gt;
+      &lt;td&gt;circle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Маркер-квадрат&lt;/td&gt;
+      &lt;td&gt;square&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация арабскими цифрами (по умолчанию)&lt;/td&gt;
+      &lt;td&gt;decimal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация арабскими цифрами (перед числами 1-9 добавляется 0)&lt;/td&gt;
+      &lt;td&gt;decimal-leading-zero&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация прописными буквами латинского алфавита&lt;/td&gt;
+      &lt;td&gt;upper-latin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Нумерация строчными буквами латинского алфавита&lt;/td&gt;
+      &lt;td&gt;lower-latin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Наследование значений родителя&lt;/td&gt;
+      &lt;td&gt;inherit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Удаление маркеров / нумерации&lt;/td&gt;
+      &lt;td&gt;none&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; в таблице приведены только основные значения. Более обширный список (грузинская и армянская нумерации, нумерация римскими числами, греческими буквами и т. д.) доступен здесь.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Пример написания кода CSS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-type-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Скриншот: варианты маркеров / нумерации списков&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-image-маркер-картинка&quot;&gt;List-style-image: маркер-картинка&lt;/h2&gt;
+
+&lt;p&gt;Помимо вышеперечисленных маркеров можно установить свои графические маркеры, используя файл с необходимым изображением. Для этого вам понадобится свойство CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-image&lt;/code&gt; и значение с указанием адреса URL картинки. Пример записи стиля:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(images/star.png)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-image-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Скриншот: примеры собственных графических маркеров&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-position-расположение-маркеров--нумерации&quot;&gt;List-style-position: расположение маркеров / нумерации&lt;/h2&gt;
+
+&lt;p&gt;Для CSS свойства &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-position&lt;/code&gt;, которое задает расположение маркеров / нумерации относительно текста, есть два значения – &lt;strong&gt;outside&lt;/strong&gt; и &lt;strong&gt;inside&lt;/strong&gt;. По умолчанию используется значение &lt;strong&gt;outside&lt;/strong&gt; – это значит, что маркер / число отображается как бы отдельно от текста списка, тогда как при значении inside маркер / число располагается внутри текстового блока и обтекается текстом.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ниже показан пример записи стиля:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-position-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Скриншот для лучшего понимания значений outside и inside&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;list-style-все-вместе&quot;&gt;List-style: все вместе&lt;/h2&gt;
+
+&lt;p&gt;Используя одно-единственное свойство CSS `list-style’, можно записать все вышеперечисленное в одной строке – то есть, сразу же задать вид маркеров / нумерации и их расположение относительно текста. Такой код будет более кратким и удобным. Ниже показано два примера, как пишется подобный стиль:&lt;/p&gt;
+
+&lt;p&gt;Нумерация прописными латинскими буквами внутри текстового блока:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ol&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;upper-latin&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Графические маркеры снаружи текстового блока:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(images/star.png)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;outside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="CSS" /><category term="Web_develop" /><summary type="html">Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков.</summary></entry><entry><title type="html">Jekyll. Основы работы</title><link href="http://localhost:4000/test-blog/jekyll/" rel="alternate" type="text/html" title="Jekyll. Основы работы" /><published>2022-07-04T00:00:00+03:00</published><updated>2022-07-04T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/jekyll/">&lt;p&gt; &lt;a href=&quot;https://jekyllrb.com/docs/includes/&quot;&gt;Jekyll  включает&lt;/a&gt; в себя возможность разбивать ваши страницы на более мелкие «компоненты», такие как навигация, заголовки разделов и нижние колонтитулы — существует множество потенциальных вариантов использования. Подробнее о включениях читайте на официальном сайте Jekyll .&lt;/p&gt;
 
 &lt;p&gt;_includes folder:&lt;/p&gt;
 
@@ -401,107 +477,7 @@ layout: default
    width: 250px;
 }
 
-    &lt;/style&gt;</content><author><name></name></author><category term="Microsoft" /><summary type="html">Пример команды которую необходимо ввести в Командную Строку выглядит следующим образом:</summary></entry><entry><title type="html">Свойство list-style</title><link href="http://localhost:4000/test-blog/css%20list-style/" rel="alternate" type="text/html" title="Свойство list-style" /><published>2022-07-03T23:02:13+03:00</published><updated>2022-07-03T23:02:13+03:00</updated><id>http://localhost:4000/test-blog/list-style</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20list-style/">&lt;p&gt;Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков. Ниже мы рассмотрим каждое свойство отдельно.&lt;/p&gt;
-
-&lt;h2 id=&quot;list-style-type-изменение-маркера--нумерации&quot;&gt;List-style-type: изменение маркера / нумерации&lt;/h2&gt;
-
-&lt;p&gt;Если вам требуется заменить стандартные маркеры в виде точки либо арабских цифр на что-то другое, вы можете воспользоваться свойством CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-type&lt;/code&gt; и дополнительными значениями для него (см. таблицу):&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Вид маркера / нумерации&lt;/th&gt;
-      &lt;th&gt;Подходящее значение&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Маркер-точка (по умолчанию)&lt;/td&gt;
-      &lt;td&gt;disc&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Маркер-окружность&lt;/td&gt;
-      &lt;td&gt;circle&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Маркер-квадрат&lt;/td&gt;
-      &lt;td&gt;square&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Нумерация арабскими цифрами (по умолчанию)&lt;/td&gt;
-      &lt;td&gt;decimal&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Нумерация арабскими цифрами (перед числами 1-9 добавляется 0)&lt;/td&gt;
-      &lt;td&gt;decimal-leading-zero&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Нумерация прописными буквами латинского алфавита&lt;/td&gt;
-      &lt;td&gt;upper-latin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Нумерация строчными буквами латинского алфавита&lt;/td&gt;
-      &lt;td&gt;lower-latin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Наследование значений родителя&lt;/td&gt;
-      &lt;td&gt;inherit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Удаление маркеров / нумерации&lt;/td&gt;
-      &lt;td&gt;none&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; в таблице приведены только основные значения. Более обширный список (грузинская и армянская нумерации, нумерация римскими числами, греческими буквами и т. д.) доступен здесь.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Пример написания кода CSS:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;circle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-type-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Скриншот: варианты маркеров / нумерации списков&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;list-style-image-маркер-картинка&quot;&gt;List-style-image: маркер-картинка&lt;/h2&gt;
-
-&lt;p&gt;Помимо вышеперечисленных маркеров можно установить свои графические маркеры, используя файл с необходимым изображением. Для этого вам понадобится свойство CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-image&lt;/code&gt; и значение с указанием адреса URL картинки. Пример записи стиля:&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(images/star.png)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-image-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Скриншот: примеры собственных графических маркеров&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;list-style-position-расположение-маркеров--нумерации&quot;&gt;List-style-position: расположение маркеров / нумерации&lt;/h2&gt;
-
-&lt;p&gt;Для CSS свойства &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-position&lt;/code&gt;, которое задает расположение маркеров / нумерации относительно текста, есть два значения – &lt;strong&gt;outside&lt;/strong&gt; и &lt;strong&gt;inside&lt;/strong&gt;. По умолчанию используется значение &lt;strong&gt;outside&lt;/strong&gt; – это значит, что маркер / число отображается как бы отдельно от текста списка, тогда как при значении inside маркер / число располагается внутри текстового блока и обтекается текстом.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ниже показан пример записи стиля:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://idg.net.ua/blog/wp-content/uploads/list-style-position-css-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Скриншот для лучшего понимания значений outside и inside&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;list-style-все-вместе&quot;&gt;List-style: все вместе&lt;/h2&gt;
-
-&lt;p&gt;Используя одно-единственное свойство CSS `list-style’, можно записать все вышеперечисленное в одной строке – то есть, сразу же задать вид маркеров / нумерации и их расположение относительно текста. Такой код будет более кратким и удобным. Ниже показано два примера, как пишется подобный стиль:&lt;/p&gt;
-
-&lt;p&gt;Нумерация прописными латинскими буквами внутри текстового блока:&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ol&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;upper-latin&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Графические маркеры снаружи текстового блока:&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(images/star.png)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;outside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="CSS" /><summary type="html">Стандартный вид маркированного и нумерованного списков – это далеко не все варианты их представления. Благодаря CSS есть возможность преображать такие списки так, как вам угодно. Существует ряд свойств, с помощью которых настраивается стиль для списков.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/test-blog/welcom/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-03T22:28:13+03:00</published><updated>2022-07-03T22:28:13+03:00</updated><id>http://localhost:4000/test-blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/welcom/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+    &lt;/style&gt;</content><author><name></name></author><category term="Microsoft" /><summary type="html">Пример команды которую необходимо ввести в Командную Строку выглядит следующим образом:</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/test-blog/welcom/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-03T22:28:13+03:00</published><updated>2022-07-03T22:28:13+03:00</updated><id>http://localhost:4000/test-blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/test-blog/welcom/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -517,4 +493,28 @@ layout: default
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Jekyll_update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Jekyll_update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">CSS: свойство word-wrap</title><link href="http://localhost:4000/test-blog/css%20word-wrap/" rel="alternate" type="text/html" title="CSS: свойство word-wrap" /><published>2022-07-03T00:00:00+03:00</published><updated>2022-07-03T00:00:00+03:00</updated><id>http://localhost:4000/test-blog/css-text-warp</id><content type="html" xml:base="http://localhost:4000/test-blog/css%20word-wrap/">&lt;p&gt;Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: &lt;strong&gt;normal&lt;/strong&gt; и &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;В нижеуказанном примере свойство &lt;strong&gt;word-wrap&lt;/strong&gt; имеет значение &lt;strong&gt;break-word&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;210px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;word-wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;break-word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Результат:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p class=&quot;wrap&quot;&gt;This paragraph has a long word: thisisaverylongwordbutyoucantfinditinthedictionary.&lt;/p&gt;
+
+&lt;p&gt;Когда свойство &lt;strong&gt;word-wrap&lt;/strong&gt; имеет значение &lt;strong&gt;break-word&lt;/strong&gt;, браузер разбивает слово, если оно не помещается по ширине в заданную область.&lt;/p&gt;
+
+&lt;style&gt;
+ .wrap {
+    width: 210px; 
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+&lt;/style&gt;</content><author><name></name></author><category term="CSS" /><summary type="html">Свойство word-wrap позволяет разбивать длинные слова и переносить их на следующую строку. Свойство имеет два значения: normal и break-word.</summary></entry></feed>

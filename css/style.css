@@ -1,4 +1,5 @@
 @import "native.css";
+@import "bootstrap-grid.min.css";
 
 /** Reset some basic elements */
 :root {

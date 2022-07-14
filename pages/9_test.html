@@ -1,0 +1,50 @@
+---
+layout: page
+title: "Test Категории"
+permalink: /test categories/
+menu: test categories
+---
+<div class="container mb-5">
+    <div class="row">
+        {% for post in site.posts %}
+      <div class="col">
+        
+            
+              <a href="{{ post.url | relative_url}}">{{ post.categories | first}}</a>
+            
+           
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+
+  
+    <div class="row">
+        {% for category in site.categories %}
+      <div class="col-md-4 mb-3">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+    </article>
+    {% endfor %}
+  
+            
+           
+      </div>
+      {% endfor %}
+
+    </div>
+  
+
+  <ul class="mb-5">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url | relative_url}}">{{ post.categories | first}}</a></li>
+    {% endfor %}
+    </ul>
