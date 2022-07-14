@@ -7,7 +7,7 @@ excerpt: 'Стандартный вид маркированного и нуме
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 permalink: /css list-style/
-title: 'Свойство list-style'
+title: 'CSS: свойство list-style'
 ---
 {:toc}
 
