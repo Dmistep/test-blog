@@ -1,26 +1,26 @@
 @import "native.css";
 
 /** Reset some basic elements */
-:root{
+:root {
     /*--header-title:#4e96b9;*/
     --header-title: #fafbfc;
-    --bg-body:#fafbfc;
-    --blue-grey:#455a64;
+    --bg-body: #fafbfc;
+    --blue-grey: #455a64;
     /*--grey: #7a8c9b;*/
     --grey: #494949;
-    --color-links:#8085c1;
-    
+    --color-links: #8085c1;
+
 }
-*,html{
+*,html {
     box-sizing: border-box;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
-    
+
 }
-h1, h2, h3{
+h1, h2, h3 {
     color: var(--grey);
 }
 
@@ -151,7 +151,7 @@ pre > code {
 
 /** Wrapper */
 .wrapper {
-   /* max-width: -webkit-calc(800px - (30px * 2));
+    /* max-width: -webkit-calc(800px - (30px * 2));
     max-width: calc(800px - (30px * 2));
     margin-right: auto;
     margin-left: auto;
@@ -297,7 +297,7 @@ table td {
     .site-nav .menu-icon > svg {
         fill: #424242;
     }
-    .trigger .page-link{
+    .trigger .page-link {
         color: #494949;
     }
     .site-nav input ~ .trigger {
@@ -319,7 +319,7 @@ table td {
     .site-nav .page-link:not(:last-child) {
         margin-right: 0;
     }
-    .site-title{
+    .site-title {
         font-size: 32px;
     }
     .footer-col {
@@ -417,9 +417,7 @@ table td {
     line-height: 1;
 }
 
-@media screen and (max-width: 480px) {
-    
-}
+@media screen and (max-width: 480px) {}
 
 .post-content {
     margin-bottom: 30px;
@@ -433,10 +431,10 @@ table td {
     .wrapper {
         /* max-width: -webkit-calc(800px - (30px));
          max-width: calc(800px - (30px));*/
-         max-width: 760px;
-         padding-right: 15px;
-         padding-left: 15px;
-     }
+        max-width: 760px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
     .post-content h2 {
         font-size: 28px;
     }
@@ -449,7 +447,7 @@ table td {
     .post-content h4 {
         font-size: 18px;
     }
-    
+
     .footer-col-1, .footer-col-2 {
         width: -webkit-calc(50% - (30px / 2));
         width: calc(50% - (30px / 2));
