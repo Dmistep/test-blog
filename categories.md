@@ -2,7 +2,7 @@
 layout: page
 title: "Категории"
 permalink: /categories/
-order: 1
+menu: categories
 ---
 <!-- <ul>
 {% for post in site.posts %}
