@@ -228,7 +228,7 @@ table td {
     /*font-family: "Playfair Display", Georgia, "Times New Roman", serif;*/
     font-family: var(--blog-font);
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 400;
     color: var(--header-title);
     /* line-height: 54px; */
     line-height: 45px;
