@@ -301,7 +301,8 @@ table td {
     }
 
     .site-nav .menu-icon > svg {
-        fill: #424242;
+        /*fill: #424242;*/
+        fill: #e8e8e8;
     }
     .trigger .page-link {
         color: #494949;
